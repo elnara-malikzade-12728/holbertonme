@@ -1366,6 +1366,31 @@ pre code {
   }
 }
 
+.btn-download {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 2px solid #fff;
+    border-radius: 0.5rem;
+    background: transparent;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-download i {
+    margin-right: 10px;
+}
+
+.btn-download:hover {
+    background: #fff;
+    color: #212529;
+}
+
+.btn-download:hover i {
+    color: #212529;
+}
+
 .table {
   width: 100%;
   margin-bottom: 1rem;
